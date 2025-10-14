@@ -1,8 +1,8 @@
 <!-- Banner estilizado com avatar e stacks -->
 <p align="center">
   <img src="./A_digital_illustration_in_a_modern,_flat,_and_slig.jpeg"
-       alt="Emanuelle Scheifer"
-       style="width:140px; height:140px; border-radius:50%; object-fit:cover; border:3px solid #8E44AD;" />
+       alt="Emanuelle Scheifer Banner"
+       style="width:auto; max-width:80%; height:auto; border-radius:12px;" />
 </p>
 
 <!-- Saudação animada -->
