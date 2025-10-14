@@ -87,6 +87,5 @@ Carregando estatísticas…
 ---
 
 ## 📫 Contato
-- **LinkedIn:** *(adicione aqui)*  
-- **Portfólio:** *(adicione aqui)*  
-- **E-mail:** *(adicione aqui)*
+- **LinkedIn:** *[(adicione aqui)](https://www.linkedin.com/in/emanuelle-scheifer-0770271a4/)*   
+- **E-mail:** *emanuellelino01@gmail.com*
