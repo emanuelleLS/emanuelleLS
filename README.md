@@ -47,8 +47,6 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 <div align="center">
 
-<div align="center">
-
 ### 💼 Tech Stack
 
 #### 💻 Frontend  
@@ -64,8 +62,8 @@ PHP (Laravel), Node.js (Express.js), Java (Spring Boot).
 MySQL, MariaDB, PostgreSQL, MongoDB.
 
 #### ☁️ DevOps & Infra  
-<img src="https://skillicons.dev/icons?i=docker,azure" /><br>
-Docker, Docker Compose, Azure.
+<img src="https://skillicons.dev/icons?i=docker,azure,aws" /><br>
+Docker, Docker Compose, Azure, AWS.
 
 #### 🧰 Ferramentas  
 <img src="https://skillicons.dev/icons?i=git,github,gitlab,figma" /><br>
@@ -76,15 +74,19 @@ Git (GitHub / GitLab), Jira, Figma, Postman, Maven, PNPM, Yarn.
 Python (OpenCV, scikit-learn, matplotlib, skimage), MATLAB.
 
 #### 🧩 Boas Práticas  
-SOLID, Design Patterns (Repository, Service, Factory, Observer), TDD, Clean Architecture.
+SOLID, Clean Architecture, Design Patterns (Repository, Service, Factory, Observer), TDD.
 
 #### 🔄 Metodologias  
-Scrum, Kanban, foco em agilidade, organização e entregas consistentes.
+Scrum e Kanban — foco em agilidade, planejamento claro e entregas consistentes.
+
+#### 💡 Soft Skills  
+Perfil **assertivo, autônomo e orientado a resultados (DISC – D)**, com suporte analítico forte.  
+Alta **proatividade**, **pensamento inovador** e **foco em eficiência**.  
+Valoriza **organização**, **clareza na comunicação**, **resolução prática de problemas** e busca constante por **melhoria e excelência técnica**.
+
 
 </div>
 
-
----
 
 <div align="center">
 
