@@ -60,6 +60,19 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 
 ---
 
+## 📊 Linguagens mais usadas (código pessoal + contribuições em organizações)
+
+> Esta seção é atualizada automaticamente via **GitHub Actions** e **API do GitHub**, considerando:
+> - Seus repositórios pessoais (100%)
+> - Suas contribuições em organizações (ponderadas pela sua participação real)
+> - Nenhum dado sensível ou nome de organização é exibido.
+
+<!--LANG-STATS-START-->
+Carregando estatísticas…
+<!--LANG-STATS-END-->
+
+---
+
 <div align="center">
 
 ### 📈 GitHub Stats
