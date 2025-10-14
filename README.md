@@ -32,11 +32,11 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 <div align="center">
   
 ### 🚀 Projetos Recentes
-| Projeto                    | Descrição                                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| *Sistema de Gestão de Serviços* | Plataforma de integração entre prestadores e clientes com backend em Laravel e frontend em Vue.js.              |
-| *Diagnóstico Inteligente* | Projeto de IA para auxílio em diagnóstico médico utilizando Python e TensorFlow.                               |
-| *Painel de Integração APIs* | Sistema de controle e monitoramento de APIs REST e webhooks em tempo real.                                    |
+| Projeto                         | Descrição                                                                                                      |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------|
+| *Sistema de Gestão de Serviços* | Plataforma de integração entre prestadores e clientes com backend em Laravel e frontend em Vue.js.             |
+| *Diagnóstico Inteligente*       | Projeto de IA para auxílio em diagnóstico médico utilizando Python e TensorFlow.                                |
+| *Painel de Integração APIs*     | Sistema de controle e monitoramento de APIs REST e webhooks em tempo real.                                     |
 
 </div>
 
@@ -63,9 +63,9 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 ## 📊 Linguagens mais usadas (código pessoal + contribuições em organizações)
 
 > Esta seção é atualizada automaticamente via **GitHub Actions** e **API do GitHub**, considerando:
-> - Seus repositórios pessoais (100%)
-> - Suas contribuições em organizações (ponderadas pela sua participação real)
-> - Nenhum dado sensível ou nome de organização é exibido.
+> - Seus repositórios pessoais (**100%** do código)
+> - Suas contribuições em organizações (**ponderadas pela sua participação real em commits**)
+> - Nenhum dado sensível, nome de organização ou repositório de terceiros é exibido
 
 <!--LANG-STATS-START-->
 Carregando estatísticas…
@@ -86,9 +86,8 @@ Carregando estatísticas…
 
 <div align="center">
 
-### 🧠 Gráfico de Atividade
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=emanuelleLS&bg_color=FFFFFF&color=8E44AD&line=BB8FCE&point=8E44AD&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+### 🏆 Conquistas & Destaques
+<img src="https://github-profile-trophy.vercel.app/?username=emanuelleLS&margin-w=8&title=Commits,Repositories,Followers,Issues,Stars" alt="Trophies"/>
 
 </div>
 

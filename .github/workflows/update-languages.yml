@@ -3,7 +3,7 @@ name: Update Language Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3 * * *'
+    - cron: '30 3 * * *'  # 03:30 UTC (~00:30 BRT)
 
 permissions:
   contents: write
@@ -12,23 +12,36 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests
-      - name: Update languages
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Update languages section
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_REPO }} # seu token pessoal (Settings → Secrets → Actions)
+          # Se quiser incluir orgs/privados, use seu PAT:
+          GITHUB_TOKEN: ${{ secrets.PAT_REPO }}
           USERNAME: "emanuelleLS"
+          EXCLUDE_FORKS: "true"
+          TOP_N: "8"
+          INCLUDE_ORG_CONTRIB: "true"
+          MAX_ORG_REPOS: "300"
         run: python scripts/update_languages.py
-      - run: |
+
+      - name: Commit changes if any
+        run: |
           if [[ -n "$(git status --porcelain)" ]]; then
-            git config user.name "github-actions[bot]"
+            git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore(readme): atualiza estatísticas de linguagens"
+            git commit -m "chore(readme): atualiza estatísticas de linguagens (pessoal + org ponderado)"
             git push
           else
-            echo "Sem mudanças."
+            echo "Sem alterações."
           fi
