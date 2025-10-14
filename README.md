@@ -68,7 +68,25 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 > - Nenhum dado sensível ou nome de empresa é exibido
 
 <!--LANG-STATS-START-->
-Carregando estatísticas…
+| Linguagem | % | Bytes (ponderado) |
+|---|---:|---:|
+| Python | 59.6% | 48376 |
+| JavaScript | 28.7% | 23316 |
+| Motoko | 7.1% | 5792 |
+| HTML | 2.2% | 1781 |
+| SCSS | 1.4% | 1132 |
+| Vue | 1.0% | 772 |
+
+```mermaid
+pie showData
+    title Linguagens usadas (ponderado)
+    "Python" : 59.60
+    "JavaScript" : 28.73
+    "Motoko" : 7.14
+    "HTML" : 2.19
+    "SCSS" : 1.39
+    "Vue" : 0.95
+```
 <!--LANG-STATS-END-->
 
 💡 **Observação:** Além dos repositórios públicos, possuo **mais de 1000 contribuições em PHP** e **mais de 1000 contribuições em Vue.js** em projetos privados corporativos — reforçando minha atuação constante em desenvolvimento **full stack**.
