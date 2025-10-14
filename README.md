@@ -47,46 +47,39 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 <div align="center">
 
+<div align="center">
+
 ### 💼 Tech Stack
 
 #### 💻 Frontend  
 <img src="https://skillicons.dev/icons?i=vue,react,js,ts,html,css" /><br>
-Experiência sólida com **Vue.js (3.5+)**, **React**, **TypeScript**, **Pinia**, **PrimeVue** e **KeenThemes**,  
-criando interfaces modernas, responsivas e centradas em UX.
+Vue.js (3.5+), React, TypeScript, JavaScript, Pinia, PrimeVue, KeenThemes.
 
 #### ⚙️ Backend  
 <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,java,spring" /><br>
-Domínio de **PHP/Laravel**, **Node.js/Express.js** e **Java/Spring Boot**, com foco em  
-arquiteturas limpas, **boas práticas de REST APIs**, autenticação JWT e **integrações com gateways de pagamento**.
+PHP (Laravel), Node.js (Express.js), Java (Spring Boot).
 
 #### 🗄️ Banco de Dados  
 <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" /><br>
-Atuação com **MySQL**, **MariaDB**, **PostgreSQL** e **MongoDB**, incluindo  
-modelagem relacional, otimização de queries e versionamento de schema (migrations e seeders).
+MySQL, MariaDB, PostgreSQL, MongoDB.
 
-#### ☁️ DevOps & Infraestrutura  
+#### ☁️ DevOps & Infra  
 <img src="https://skillicons.dev/icons?i=docker,azure" /><br>
-Ambientes conteinerizados com **Docker** e **Docker Compose**, integração contínua e deploy em **Azure**.  
-Foco em **automação**, **ambientes escaláveis** e **boas práticas de versionamento**.
+Docker, Docker Compose, Azure.
 
 #### 🧰 Ferramentas  
 <img src="https://skillicons.dev/icons?i=git,github,gitlab,figma" /><br>
-Utilização diária de **Git (GitHub / GitLab)**, **Jira**, **Figma**, **Postman**, **Maven**, **Corepack/PNPM** e **Yarn**  
-para garantir rastreabilidade, colaboração e padronização de fluxo de trabalho.
+Git (GitHub / GitLab), Jira, Figma, Postman, Maven, PNPM, Yarn.
 
-#### 🧠 Inteligência Artificial & Ciência de Dados  
+#### 🧠 IA & Ciência de Dados  
 <img src="https://skillicons.dev/icons?i=python,tensorflow" /><br>
-Projetos aplicando **OpenCV**, **scikit-learn**, **matplotlib** e **skimage** para  
-processamento de imagens, extração de características e classificação inteligente.  
-Também possui experiência em **MATLAB** para análise e modelagem de dados.
+Python (OpenCV, scikit-learn, matplotlib, skimage), MATLAB.
 
-#### 🧩 Arquitetura & Boas Práticas  
-Princípios **SOLID**, **Clean Architecture** e uso de **Design Patterns** (Repository, Service Layer, Factory, Observer).  
-Adoção de **TDD**, **versionamento semântico** e **documentação estruturada**.  
+#### 🧩 Boas Práticas  
+SOLID, Design Patterns (Repository, Service, Factory, Observer), TDD, Clean Architecture.
 
-#### 🔄 Metodologias Ágeis  
-Atuação em times **Scrum** e **Kanban**, com foco em entregas iterativas,  
-comunicação transparente e melhoria contínua.
+#### 🔄 Metodologias  
+Scrum, Kanban, foco em agilidade, organização e entregas consistentes.
 
 </div>
 
