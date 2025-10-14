@@ -1,39 +1,34 @@
-import os, re, sys, time, math
+import os, re, sys, time
 import requests
 from collections import defaultdict
 
-# --------------------------
-# Config via ENV
-# --------------------------
+
 USERNAME = os.getenv("USERNAME") or "emanuelleLS"
 TOP_N = int(os.getenv("TOP_N", "8"))
 EXCLUDE_FORKS = os.getenv("EXCLUDE_FORKS", "true").lower() == "true"
-INCLUDE_ORG_CONTRIB = os.getenv("INCLUDE_ORG_CONTRIB", "true").lower() == "true"
-MAX_ORG_REPOS = int(os.getenv("MAX_ORG_REPOS", "300"))  # limite de segurança
+INCLUDE_ORG_CONTRIB = os.getenv("INCLUDE_ORG_CONTRIB", "false").lower() == "true"  
+MAX_ORG_REPOS = int(os.getenv("MAX_ORG_REPOS", "0"))
 
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # recomenda-se PAT para incluir orgs/privados
-
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  
 API = "https://api.github.com"
+
 HEADERS = {"Accept": "application/vnd.github+json"}
 if GITHUB_TOKEN:
     HEADERS["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+else:
+    pass
 
-# --------------------------
-# Helpers
-# --------------------------
 def get_with_retry(url, params=None, max_retries=3, backoff=1.5):
     last_err = None
     for i in range(max_retries):
         try:
             r = requests.get(url, headers=HEADERS, params=params, timeout=30)
             if r.status_code in (429, 502, 503, 504):
-                # rate limit ou instabilidade: backoff
                 time.sleep(backoff * (i + 1))
                 continue
             r.raise_for_status()
             return r
         except requests.HTTPError as e:
-            # Se for 202 no stats (em processamento), deixamos a cargo do chamador
             last_err = e
             time.sleep(backoff * (i + 1))
     if last_err:
@@ -41,9 +36,6 @@ def get_with_retry(url, params=None, max_retries=3, backoff=1.5):
     raise RuntimeError("Falha de rede não tratada")
 
 def paginated(url, params=None, limit=None):
-    """
-    Paginação robusta usando r.links['next']['url'] quando presente.
-    """
     count = 0
     while True:
         r = get_with_retry(url, params=params)
@@ -58,61 +50,44 @@ def paginated(url, params=None, limit=None):
                 if limit and count >= limit:
                     return
         else:
-            # objeto inesperado
             break
-        # proxima página?
         if r.links and "next" in r.links:
             url = r.links["next"]["url"]
-            params = None  # já codificado em next
-            # suaviza ritmo
-            time.sleep(0.15)
+            params = None
+            time.sleep(0.12)
         else:
             break
 
 def list_personal_repos():
     """
-    Repositórios que você realmente possui (owner), públicos e privados.
-    Requer token para privados. Exclui qualquer Owner que não seja 'User' ou != USERNAME (defensivo).
+    - Com token: /user/repos (owner) → públicos+privados.
+    - Sem token: /users/{USERNAME}/repos (type=owner) → só públicos.
+    Retorna apenas repos cujo owner == USERNAME (User).
     """
-    params = {
-        "visibility": "all",
-        "affiliation": "owner",
-        "per_page": 100,
-        "sort": "updated",
-        "direction": "desc",
-    }
-    url = f"{API}/user/repos"
-    repos = []
-    for r in paginated(url, params=params):
+    if GITHUB_TOKEN:
+        params = {"visibility": "all", "affiliation": "owner", "per_page": 100, "sort": "updated", "direction": "desc"}
+        url = f"{API}/user/repos"
+        raw = [r for r in paginated(url, params=params)]
+    else:
+        params = {"type": "owner", "per_page": 100}
+        url = f"{API}/users/{USERNAME}/repos"
+        raw = [r for r in paginated(url, params=params)]
+
+    out = []
+    for r in raw:
         owner = r.get("owner", {})
         if owner.get("type") == "User" and owner.get("login") == USERNAME:
-            repos.append(r)
-        if len(repos) % 100 == 0:
-            time.sleep(0.05)
-    return repos
+            out.append(r)
+    return out
 
 def list_org_member_repos(limit):
-    """
-    Repositórios de organizações em que você é 'organization_member'.
-    Requer token com acesso aprovado pela org (se privado).
-    NÃO expomos nomes; usamos apenas para cálculo agregado.
-    """
-    params = {
-        "visibility": "all",
-        "affiliation": "organization_member",
-        "per_page": 100,
-        "sort": "updated",
-        "direction": "desc",
-    }
+    """Só com token. Sem token, retorna []."""
+    if not GITHUB_TOKEN:
+        return []
+    params = {"visibility": "all", "affiliation": "organization_member", "per_page": 100, "sort": "updated"}
     url = f"{API}/user/repos"
-    repos = []
-    for r in paginated(url, params=params, limit=limit):
-        # aceitamos Organization e também casos híbridos
-        if r.get("owner", {}).get("type") == "Organization":
-            repos.append(r)
-        if len(repos) % 100 == 0:
-            time.sleep(0.05)
-    return repos
+    raw = [r for r in paginated(url, params=params, limit=limit)]
+    return [r for r in raw if r.get("owner", {}).get("type") == "Organization"]
 
 def repo_languages(owner, repo):
     r = get_with_retry(f"{API}/repos/{owner}/{repo}/languages")
@@ -120,10 +95,10 @@ def repo_languages(owner, repo):
         return {}
     return r.json() or {}
 
-def contributor_ratio(owner, repo, username, max_waits=8, sleep_s=1.5):
+def contributors_ratio(owner, repo, username, max_waits=6, sleep_s=1.25):
     """
-    Fração de commits do username num repositório (mine/total), via /stats/contributors.
-    Esse endpoint pode retornar 202 (gerando estatística); aguardamos até max_waits.
+    Fração de commits do usuário no repositório (mine/total) via /stats/contributors.
+    Se não estiver pronto (202), aguardamos algumas vezes; senão retornamos 0.0.
     """
     url = f"{API}/repos/{owner}/{repo}/stats/contributors"
     waits = 0
@@ -147,10 +122,7 @@ def contributor_ratio(owner, repo, username, max_waits=8, sleep_s=1.5):
             author = entry.get("author") or {}
             if author.get("login") == username:
                 mine += commits
-        if total <= 0:
-            return 0.0
-        return mine / total
-    # stats não ficaram prontas a tempo
+        return (mine / total) if total > 0 else 0.0
     return 0.0
 
 def format_table(lang_pct, totals):
@@ -174,13 +146,7 @@ def update_readme(content):
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated)
 
-# --------------------------
-# Main
-# --------------------------
 def main():
-    if not GITHUB_TOKEN:
-        print("Aviso: GITHUB_TOKEN ausente; serão considerados apenas repositórios públicos pessoais.", file=sys.stderr)
-
     totals = defaultdict(float)
 
     # 1) Pessoais (100%)
@@ -198,9 +164,8 @@ def main():
             continue
         for lang, b in langs.items():
             totals[lang] += float(b)
-        time.sleep(0.12)
+        time.sleep(0.1)
 
-    # 2) Orgs ponderadas (opcional)
     if INCLUDE_ORG_CONTRIB and GITHUB_TOKEN:
         orgs = list_org_member_repos(limit=MAX_ORG_REPOS)
         for r in orgs:
@@ -210,9 +175,8 @@ def main():
                 continue
             owner = r["owner"]["login"]
             name = r["name"]
-            # fracao de commits seus
             try:
-                frac = contributor_ratio(owner, name, USERNAME)
+                frac = contributors_ratio(owner, name, USERNAME)
             except Exception:
                 frac = 0.0
             if frac <= 0.0:
@@ -221,14 +185,13 @@ def main():
                 langs = repo_languages(owner, name)
             except Exception:
                 continue
-            # agrega ponderando pela sua fração de commits
             for lang, b in langs.items():
                 totals[lang] += float(b) * float(frac)
-            time.sleep(0.18)
+            time.sleep(0.15)
 
-    # 3) Monta saída
+    # 3) Saída
     if not totals:
-        result = "Nenhum dado de linguagem encontrado (verifique permissões do token e existência de repositórios)."
+        result = "Nenhum dado de linguagem encontrado (sem token: somente repositórios pessoais públicos; verifique também se há código detectável)."
     else:
         grand = sum(totals.values())
         items = [(lang, (b / grand) * 100.0) for lang, b in totals.items() if b > 0]
@@ -239,7 +202,7 @@ def main():
         result = f"{table}\n\n{chart}"
 
     update_readme(result)
-    print("README atualizado com estatísticas de linguagens (pessoal + org ponderado).")
+    print("README atualizado com estatísticas de linguagens (pessoais; orgs desativado).")
 
 if __name__ == "__main__":
     main()

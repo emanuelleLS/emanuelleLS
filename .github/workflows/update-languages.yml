@@ -25,13 +25,11 @@ jobs:
 
       - name: Update languages section
         env:
-          # Se quiser incluir orgs/privados, use seu PAT:
-          GITHUB_TOKEN: ${{ secrets.PAT_REPO }}
           USERNAME: "emanuelleLS"
           EXCLUDE_FORKS: "true"
           TOP_N: "8"
-          INCLUDE_ORG_CONTRIB: "true"
-          MAX_ORG_REPOS: "300"
+          INCLUDE_ORG_CONTRIB: "false"   
+          MAX_ORG_REPOS: "0"
         run: python scripts/update_languages.py
 
       - name: Commit changes if any
@@ -40,7 +38,7 @@ jobs:
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore(readme): atualiza estatísticas de linguagens (pessoal + org ponderado)"
+            git commit -m "chore(readme): atualiza estatísticas de linguagens (pessoais)"
             git push
           else
             echo "Sem alterações."
