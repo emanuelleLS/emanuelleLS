@@ -49,17 +49,47 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 ### 💼 Tech Stack
 
-#### 💻 Linguagens e Frameworks  
-<img src="https://skillicons.dev/icons?i=php,laravel,python,nodejs,java,spring,vue,react,ts,js" />
+#### 💻 Frontend  
+<img src="https://skillicons.dev/icons?i=vue,react,js,ts,html,css" /><br>
+Experiência sólida com **Vue.js (3.5+)**, **React**, **TypeScript**, **Pinia**, **PrimeVue** e **KeenThemes**,  
+criando interfaces modernas, responsivas e centradas em UX.
 
-#### ⚙️ Ferramentas  
-<img src="https://skillicons.dev/icons?i=docker,vscode,git,mysql,postgres,aws" />
+#### ⚙️ Backend  
+<img src="https://skillicons.dev/icons?i=php,laravel,nodejs,java,spring" /><br>
+Domínio de **PHP/Laravel**, **Node.js/Express.js** e **Java/Spring Boot**, com foco em  
+arquiteturas limpas, **boas práticas de REST APIs**, autenticação JWT e **integrações com gateways de pagamento**.
 
-#### 🤖 Inteligência Artificial  
-<img src="https://skillicons.dev/icons?i=tensorflow" />  
-<img src="https://img.shields.io/badge/Machine%20Learning-8E44AD?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+#### 🗄️ Banco de Dados  
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb" /><br>
+Atuação com **MySQL**, **MariaDB**, **PostgreSQL** e **MongoDB**, incluindo  
+modelagem relacional, otimização de queries e versionamento de schema (migrations e seeders).
+
+#### ☁️ DevOps & Infraestrutura  
+<img src="https://skillicons.dev/icons?i=docker,azure" /><br>
+Ambientes conteinerizados com **Docker** e **Docker Compose**, integração contínua e deploy em **Azure**.  
+Foco em **automação**, **ambientes escaláveis** e **boas práticas de versionamento**.
+
+#### 🧰 Ferramentas  
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,figma" /><br>
+Utilização diária de **Git (GitHub / GitLab)**, **Jira**, **Figma**, **Postman**, **Maven**, **Corepack/PNPM** e **Yarn**  
+para garantir rastreabilidade, colaboração e padronização de fluxo de trabalho.
+
+#### 🧠 Inteligência Artificial & Ciência de Dados  
+<img src="https://skillicons.dev/icons?i=python,tensorflow" /><br>
+Projetos aplicando **OpenCV**, **scikit-learn**, **matplotlib** e **skimage** para  
+processamento de imagens, extração de características e classificação inteligente.  
+Também possui experiência em **MATLAB** para análise e modelagem de dados.
+
+#### 🧩 Arquitetura & Boas Práticas  
+Princípios **SOLID**, **Clean Architecture** e uso de **Design Patterns** (Repository, Service Layer, Factory, Observer).  
+Adoção de **TDD**, **versionamento semântico** e **documentação estruturada**.  
+
+#### 🔄 Metodologias Ágeis  
+Atuação em times **Scrum** e **Kanban**, com foco em entregas iterativas,  
+comunicação transparente e melhoria contínua.
 
 </div>
+
 
 ---
 
