@@ -67,12 +67,21 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 ### 📈 GitHub Stats
 
+<div align="center">
+
 <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=emanuelleLS&show_icons=true&count_private=true&hide_border=true&title_color=8E44AD&icon_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
 <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelleLS&layout=compact&hide_border=true&title_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Contribuições%20Totais-+3000-8E44AD?style=for-the-badge" alt="+3000 contribuições" />
+<br/>
+<sub>Mais de 3.000 contribuições em projetos privados, com forte atuação em <b>PHP (Laravel)</b> e <b>Vue.js</b>.</sub>
 
 </div>
 
 ---
+
 
 <div align="center">
 
@@ -80,7 +89,6 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 <img src="https://img.shields.io/badge/Contribuições-+3000-8E44AD?style=for-the-badge" alt="+3000 contribuições" />
 <br/>
-<sub>Inclui desenvolvimento ativo em projetos privados com foco em PHP e Vue.js.</sub>
 
 </div>
 
