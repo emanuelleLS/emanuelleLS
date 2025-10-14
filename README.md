@@ -1,19 +1,17 @@
 <!-- Banner estilizado com avatar e stacks -->
 <p align="center">
   <img src="./A_digital_illustration_in_a_modern,_flat,_and_slig.jpeg"
-       alt="Emanuelle Scheifer Banner"
-       style="width:auto; max-width:80%; height:auto; border-radius:12px;" />
+       alt="Emanuelle Scheifer"
+       style="width:120px; height:auto; border-radius:12px;" />
 </p>
+
 
 <!-- Saudação animada -->
 <p align="center">
-  <img src="./A_digital_illustration_in_a_modern,_flat,_and_slig.jpeg"
-       alt="Emanuelle Scheifer Banner"
-       style="width:70%; max-width:700px; border-radius:12px;" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=8E44AD&width=1000&lines=Olá,+sou+Emanuelle+Scheifer!;Software+Engineer+%7C+Full+Stack+Developer;Apaixonada+por+Inovação,+IA+e+Tecnologia" alt="Typing SVG" />
+  </a>
 </p>
-
-
-
 ---
 
 <div align="center">
