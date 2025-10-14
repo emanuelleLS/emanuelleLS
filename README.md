@@ -6,37 +6,40 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=8E44AD&width=1000&lines=Olá,+sou+Emanuelle+Scheifer!;Software+Engineer+%7C+Full+Stack+Developer;Apaixonada+por+Inovação,+IA+e+Tecnologia" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=8E44AD&width=950&lines=Olá,+sou+Emanuelle+Scheifer!;Engenheira+de+Software+%7C+Full+Stack+Developer;Apaixonada+por+Inovação,+IA+e+Tecnologia" alt="Typing SVG" />
   </a>
 </p>
+
+---
 
 <div align="center">
 
 ### 👩‍💻 Sobre Mim
 
-Sou *Engenheira de Software* com experiência em *desenvolvimento full stack, **análise de requisitos*** e *integração entre equipes de TI*.  
-Atuo com foco em *resultados, inovação e escalabilidade*, criando soluções robustas e bem estruturadas.
+Sou **Engenheira de Software** com experiência em **desenvolvimento full stack**, **análise de requisitos** e **integração entre times técnicos e de produto**.  
+Gosto de transformar ideias complexas em sistemas elegantes, com foco em **performance, usabilidade e impacto real**.
 
-Tenho domínio em *backend (PHP/Laravel, Node.js, Java/Spring Boot)* e *frontend (Vue.js, React, JavaScript)*, além de experiência com **APIs REST**, **gateways de pagamento** e *webhooks*.  
-Também participo de projetos que aplicam *Inteligência Artificial e Machine Learning* em contextos de diagnóstico e processamento de imagens.
+Atuo no **backend (PHP/Laravel, Node.js, Java/Spring Boot)** e no **frontend (Vue.js, React, TypeScript)**, sempre buscando soluções limpas, escaláveis e bem arquitetadas.  
+Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento** e **aplicações inteligentes** baseadas em *Machine Learning* e *Processamento de Imagens*.
 
-- 🎯 Foco em performance e qualidade  
-- 🧠 Entusiasta de IA e aprendizado de máquina  
-- 🔄 Metodologias Ágeis (*Scrum* e *Kanban*)  
-- ☁️ Experiência com *AWS* e *integrações complexas*  
+🎯 Foco em resultados e clareza técnica  
+🧠 Entusiasta de IA aplicada e inovação  
+☁️ Experiência com AWS e ambientes distribuídos  
+🔄 Adepta de metodologias ágeis (*Scrum* e *Kanban*)
 
 </div>
 
 ---
 
 <div align="center">
-  
-### 🚀 Projetos Recentes
-| Projeto                         | Descrição                                                                                                      |
-|---------------------------------|------------------------------------------------------------------------------------------------------------------|
-| *Sistema de Gestão de Serviços* | Plataforma de integração entre prestadores e clientes com backend em Laravel e frontend em Vue.js.             |
-| *Diagnóstico Inteligente*       | Projeto de IA para auxílio em diagnóstico médico utilizando Python e TensorFlow.                                |
-| *Painel de Integração APIs*     | Sistema de controle e monitoramento de APIs REST e webhooks em tempo real.                                     |
+
+### 🚀 Projetos em Destaque
+
+| Projeto                         | Descrição                                                                                                    |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Agilizza Serviços**           | SaaS de gestão e automação entre prestadores e clientes, com backend em Laravel e frontend em Vue 3.         |
+| **Diagnóstico Inteligente**     | Sistema de IA para auxílio em diagnósticos médicos, utilizando Python e OpenCV.                             |
+| **Painel de Integração APIs**   | Dashboard para monitoramento de APIs REST e webhooks, com métricas em tempo real e alertas automatizados.   |
 
 </div>
 
@@ -46,8 +49,8 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 
 ### 💼 Tech Stack
 
-#### 💻 Linguagens & Frameworks  
-<img src="https://skillicons.dev/icons?i=php,laravel,python,nodejs,java,spring,vue,react,js,ts" />
+#### 💻 Linguagens e Frameworks  
+<img src="https://skillicons.dev/icons?i=php,laravel,python,nodejs,java,spring,vue,react,ts,js" />
 
 #### ⚙️ Ferramentas  
 <img src="https://skillicons.dev/icons?i=docker,vscode,git,mysql,postgres,aws" />
@@ -57,22 +60,6 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 <img src="https://img.shields.io/badge/Machine%20Learning-8E44AD?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 
 </div>
-
----
-
-## 📊 Linguagens mais usadas (código pessoal + contribuições privadas)
-
-> Estimativa agregada da minha atuação técnica. **PHP** e **Vue.js** concentram atividades em **repositórios privados**.
-
-<!--LANG-STATS-START-->
-```mermaid
-pie showData
-    title Linguagens usadas (estimativa)
-    "PHP" : 40
-    "Vue.js" : 40
-    "Outras" : 20
-```
-<!--LANG-STATS-END-->
 
 ---
 
@@ -93,7 +80,7 @@ pie showData
 
 <img src="https://img.shields.io/badge/Contribuições-+3000-8E44AD?style=for-the-badge" alt="+3000 contribuições" />
 <br/>
-<sub>Inclui trabalho substancial em código privado (PHP e Vue.js).</sub>
+<sub>Inclui desenvolvimento ativo em projetos privados com foco em PHP e Vue.js.</sub>
 
 </div>
 
@@ -118,5 +105,5 @@ pie showData
 ---
 
 <div align="center">
-  <strong>“Transformar tecnologia em impacto, com propósito e inovação.”</strong> 💜
+  <strong>“Transformar tecnologia em impacto — com propósito, clareza e inovação.”</strong> 💜
 </div>
