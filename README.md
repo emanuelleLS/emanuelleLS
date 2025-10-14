@@ -74,9 +74,11 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Contribuições%20Totais-+3000-8E44AD?style=for-the-badge" alt="+3000 contribuições" />
-<br/>
-<sub>Mais de 3.000 contribuições em projetos privados, com forte atuação em <b>PHP (Laravel)</b> e <b>Vue.js</b>.</sub>
+<h2 align="center">
+  💜 <strong>+3.000 contribuições em projetos privados utilizando PHP (Laravel) e Vue.js</strong> 💻
+</h2>
+
+<img src="https://img.shields.io/badge/Atuação%20principal-PHP%20%26%20Vue.js-8E44AD?style=for-the-badge" alt="PHP e Vue.js" />
 
 </div>
 
