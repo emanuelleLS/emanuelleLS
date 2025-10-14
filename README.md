@@ -62,34 +62,17 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 
 ## 📊 Linguagens mais usadas (código pessoal + contribuições privadas)
 
-> Esta seção reflete minha atividade real como desenvolvedora, considerando:
-> - Repositórios **pessoais públicos**
-> - Contribuições **privadas em organizações e sistemas internos**
-> - Nenhum dado sensível ou nome de empresa é exibido
+> Estimativa agregada da minha atuação técnica. **PHP** e **Vue.js** concentram atividades em **repositórios privados**.
 
 <!--LANG-STATS-START-->
-| Linguagem | % | Bytes (ponderado) |
-|---|---:|---:|
-| Python | 59.6% | 48376 |
-| JavaScript | 28.7% | 23316 |
-| Motoko | 7.1% | 5792 |
-| HTML | 2.2% | 1781 |
-| SCSS | 1.4% | 1132 |
-| Vue | 1.0% | 772 |
-
 ```mermaid
 pie showData
-    title Linguagens usadas (ponderado)
-    "Python" : 59.60
-    "JavaScript" : 28.73
-    "Motoko" : 7.14
-    "HTML" : 2.19
-    "SCSS" : 1.39
-    "Vue" : 0.95
+    title Linguagens usadas (estimativa)
+    "PHP" : 40
+    "Vue.js" : 40
+    "Outras" : 20
 ```
 <!--LANG-STATS-END-->
-
-💡 **Observação:** Além dos repositórios públicos, possuo **mais de 1000 contribuições em PHP** e **mais de 1000 contribuições em Vue.js** em projetos privados corporativos — reforçando minha atuação constante em desenvolvimento **full stack**.
 
 ---
 
@@ -106,8 +89,11 @@ pie showData
 
 <div align="center">
 
-### 🏆 Conquistas & Destaques
-<img src="https://github-profile-trophy.vercel.app/?username=emanuelleLS&theme=algolia&no-bg=true&margin-w=8&title=Commits,Repositories,Followers,PullRequest,Stars,Issues&row=1" alt="GitHub Profile Trophy" />
+### 🔥 Contribuições
+
+<img src="https://img.shields.io/badge/Contribuições-+3000-8E44AD?style=for-the-badge" alt="+3000 contribuições" />
+<br/>
+<sub>Inclui trabalho substancial em código privado (PHP e Vue.js).</sub>
 
 </div>
 

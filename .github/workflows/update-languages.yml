@@ -3,7 +3,7 @@ name: Update Language Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3 * * *'  # 03:30 UTC (~00:30 BRT)
+    - cron: '30 3 * * *'
 
 permissions:
   contents: write
@@ -14,31 +14,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install deps
-        run: pip install requests
-
       - name: Update languages section
         env:
-          USERNAME: "emanuelleLS"
-          EXCLUDE_FORKS: "true"
-          TOP_N: "8"
-          INCLUDE_ORG_CONTRIB: "false"   
-          MAX_ORG_REPOS: "0"
+          PHP_PCT: "40"
+          VUE_PCT: "40"
+          OUTRAS_PCT: "20"
         run: python scripts/update_languages.py
-
       - name: Commit changes if any
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore(readme): atualiza estatísticas de linguagens (pessoais)"
+            git commit -m "chore(readme): atualiza gráfico de linguagens (estimativa)"
             git push
           else
             echo "Sem alterações."
