@@ -60,16 +60,18 @@ Também participo de projetos que aplicam *Inteligência Artificial e Machine Le
 
 ---
 
-## 📊 Linguagens mais usadas (código pessoal + contribuições em organizações)
+## 📊 Linguagens mais usadas (código pessoal + contribuições privadas)
 
-> Esta seção é atualizada automaticamente via **GitHub Actions** e **API do GitHub**, considerando:
-> - Seus repositórios pessoais (**100%** do código)
-> - Suas contribuições em organizações (**ponderadas pela sua participação real em commits**)
-> - Nenhum dado sensível, nome de organização ou repositório de terceiros é exibido
+> Esta seção reflete minha atividade real como desenvolvedora, considerando:
+> - Repositórios **pessoais públicos**
+> - Contribuições **privadas em organizações e sistemas internos**
+> - Nenhum dado sensível ou nome de empresa é exibido
 
 <!--LANG-STATS-START-->
 Carregando estatísticas…
 <!--LANG-STATS-END-->
+
+💡 **Observação:** Além dos repositórios públicos, possuo **mais de 1000 contribuições em PHP** e **mais de 1000 contribuições em Vue.js** em projetos privados corporativos — reforçando minha atuação constante em desenvolvimento **full stack**.
 
 ---
 
@@ -87,7 +89,7 @@ Carregando estatísticas…
 <div align="center">
 
 ### 🏆 Conquistas & Destaques
-<img src="https://github-profile-trophy.vercel.app/?username=emanuelleLS&margin-w=8&title=Commits,Repositories,Followers,Issues,Stars" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=emanuelleLS&theme=algolia&no-bg=true&margin-w=8&title=Commits,Repositories,Followers,PullRequest,Stars,Issues&row=1" alt="GitHub Profile Trophy" />
 
 </div>
 
