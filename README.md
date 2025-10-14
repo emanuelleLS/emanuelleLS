@@ -78,7 +78,8 @@ Tenho experiência com **APIs REST**, **webhooks**, **integrações de pagamento
 <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=emanuelleLS&show_icons=true&count_private=true&hide_border=true&title_color=8E44AD&icon_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
 <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelleLS&layout=compact&hide_border=true&title_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
 
-<img src="https://img.shields.io/badge/Atuação%20principal-PHP%20%26%20Vue.js-8E44AD?style=for-the-badge" alt="PHP e Vue.js" />
+<img src="https://img.shields.io/badge/Atuação%20principal%20(em%20repositórios%20privados)-PHP%20%26%20Vue.js-8E44AD?style=for-the-badge" alt="PHP e Vue.js em repositórios privados" />
+
 
 </div>
 
