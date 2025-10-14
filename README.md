@@ -1,91 +1,106 @@
-<!-- Banner / Headline -->
+<!-- Banner estilizado com avatar e stacks -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&duration=3000&pause=500&multiline=true&width=800&height=90&lines=Emanuelle+Lino+Scheifer;Full+Stack+Developer+%7C+Laravel%2C+Vue+3%2BTS%2C+Python%2FOpenCV%2C+IA" alt="Typing SVG" />
+  <img src="./A_digital_illustration_in_a_modern,_flat,_and_slig.png" alt="Emanuelle Scheifer Banner" style="width:100%; border-radius:12px;" />
 </p>
 
+<!-- Saudação animada -->
 <p align="center">
-  <a href="https://github.com/emanuelleLS">
-    <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=emanuelleLS&style=for-the-badge&label=VISITAS"/>
-  </a>
-  <a href="https://github.com/emanuelleLS?tab=followers">
-    <img alt="Followers" src="https://img.shields.io/github/followers/emanuelleLS?style=for-the-badge"/>
-  </a>
-  <a href="https://github.com/emanuelleLS?tab=repositories">
-    <img alt="Repos" src="https://img.shields.io/badge/Repos%20P%C3%BAblicos--%3E-?style=for-the-badge"/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=8E44AD&width=1000&lines=Olá,+sou+Emanuelle+Scheifer!;Software+Engineer+%7C+Full+Stack+Developer;Apaixonada+por+Inovação,+IA+e+Tecnologia" alt="Typing SVG" />
   </a>
 </p>
 
 ---
 
-## 👋 Sobre mim
-Dev **Full Stack** com foco em código **limpo, seguro** e **UX** consistente. Trabalho com **Laravel (PHP)** no backend, **Vue 3 + TypeScript** no frontend e **Python/OpenCV** em projetos de IA e processamento de imagens.
+<div align="center">
 
-- 🎯 Interesses: IA aplicada, bioinformática, produtos SaaS, UI/UX pragmática.  
-- 📚 Sempre estudando e refinando arquitetura, testes e boas práticas (SOLID, padrões, DX).
+### 👩‍💻 Sobre Mim
 
----
+Sou *Engenheira de Software* com experiência em *desenvolvimento full stack, **análise de requisitos*** e *integração entre equipes de TI*.  
+Atuo com foco em *resultados, inovação e escalabilidade*, criando soluções robustas e bem estruturadas.
 
-## 🛠️ Tech Stack principal
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="36" alt="PHP"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="36" alt="Laravel"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="36" alt="Vue"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" alt="TS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36" alt="JS"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="36" alt="OpenCV"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="36" alt="MySQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" alt="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="36" alt="GitHub"/>
-</p>
+Tenho domínio em *backend (PHP/Laravel, Node.js, Java/Spring Boot)* e *frontend (Vue.js, React, JavaScript)*, além de experiência com **APIs REST**, **gateways de pagamento** e *webhooks*.  
+Também participo de projetos que aplicam *Inteligência Artificial e Machine Learning* em contextos de diagnóstico e processamento de imagens.
+
+- 🎯 Foco em performance e qualidade  
+- 🧠 Entusiasta de IA e aprendizado de máquina  
+- 🔄 Metodologias Ágeis (*Scrum* e *Kanban*)  
+- ☁️ Experiência com *AWS* e *integrações complexas*  
+
+</div>
 
 ---
 
-## 📊 Linguagens mais usadas (scan real dos meus repositórios)
-> Esta seção é **atualizada automaticamente** via GitHub Actions (script em `scripts/update_languages.py`).
+<div align="center">
+  
+### 🚀 Projetos Recentes
+| Projeto                    | Descrição                                                                                                      |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| *Sistema de Gestão de Serviços* | Plataforma de integração entre prestadores e clientes com backend em Laravel e frontend em Vue.js.              |
+| *Diagnóstico Inteligente* | Projeto de IA para auxílio em diagnóstico médico utilizando Python e TensorFlow.                               |
+| *Painel de Integração APIs* | Sistema de controle e monitoramento de APIs REST e webhooks em tempo real.                                    |
 
-<!--LANG-STATS-START-->
-Carregando estatísticas…
-<!--LANG-STATS-END-->
-
----
-
-## 📈 Métricas públicas do GitHub
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=emanuelleLS&show_icons=true&include_all_commits=true&rank_icon=github&theme=default" height="150" alt="Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelleLS&layout=compact&langs_count=8" height="150" alt="Top Langs"/>
-</p>
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com?user=emanuelleLS&date_format=j%20M%5B%20Y%5D" height="150" alt="Streak Stats"/>
-</p>
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=emanuelleLS&margin-w=8&title=Commits,Repositories,Followers,Issues,Stars" alt="Trophies"/>
-</p>
+</div>
 
 ---
 
-## 🧩 Projetos em destaque
-- **Agilizza Serviços (SaaS)** — Gestão de orçamentos e OS com foco em UX e automações.  
-- **SkinLesion AI** — Pipeline de processamento de imagens (OpenCV) e regras morfológicas para apoio à decisão.  
-- **NetLens (conceito)** — Observabilidade de módulos distribuídos com painéis de latência, erros e alertas.
+<div align="center">
+
+### 💼 Tech Stack
+
+#### 💻 Linguagens & Frameworks  
+<img src="https://skillicons.dev/icons?i=php,laravel,python,nodejs,java,spring,vue,react,js,ts" />
+
+#### ⚙️ Ferramentas  
+<img src="https://skillicons.dev/icons?i=docker,vscode,git,mysql,postgres,aws" />
+
+#### 🤖 Inteligência Artificial  
+<img src="https://skillicons.dev/icons?i=tensorflow" />  
+<img src="https://img.shields.io/badge/Machine%20Learning-8E44AD?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+
+</div>
 
 ---
 
-## 🤖 Como esta página se atualiza
-<details>
-<summary>Ver detalhes do pipeline</summary>
+<div align="center">
 
-- GitHub Actions agenda a execução diária.
-- O script Python usa a API `/users/:username/repos` e `/repos/:owner/:repo/languages`.
-- Agrega bytes por linguagem, gera **tabela** e **gráfico Mermaid** e substitui entre:
-  `<!--LANG-STATS-START--> ... <!--LANG-STATS-END-->`.
-- Commita apenas quando há mudança real.
-</details>
+### 📈 GitHub Stats
+
+<img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=emanuelleLS&show_icons=true&count_private=true&hide_border=true&title_color=8E44AD&icon_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
+<img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emanuelleLS&layout=compact&hide_border=true&title_color=8E44AD&text_color=EAF2F8&bg_color=0d1117" />
+
+</div>
 
 ---
 
-## 📫 Contato
-- **LinkedIn:** *[(adicione aqui)](https://www.linkedin.com/in/emanuelle-scheifer-0770271a4/)*   
-- **E-mail:** *emanuellelino01@gmail.com*
+<div align="center">
+
+### 🧠 Gráfico de Atividade
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=emanuelleLS&bg_color=FFFFFF&color=8E44AD&line=BB8FCE&point=8E44AD&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+<div align="center">
+
+### 📬 Contato
+
+<a href="mailto:emanuellescheifer@gmail.com">
+  <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/emanuelle-scheifer-0770271a4/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-8E44AD?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://github.com/emanuelleLS" target="_blank">
+  <img src="https://img.shields.io/badge/-GitHub-4A235A?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+  <strong>“Transformar tecnologia em impacto, com propósito e inovação.”</strong> 💜
+</div>
