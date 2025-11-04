@@ -38,7 +38,7 @@ I work across **backend (PHP/Laravel, Node.js, Java/Spring Boot)** and **fronten
 
 | Project | Description |
 |----------|------------|
-| 💼 **Agilizza Services** | SaaS platform that automates management between service providers and clients — built with Laravel & Vue 3, supporting payments, scheduling, and multi-tenant architecture. |
+| 💼 **[Agilizza Services](https://admin.agilizzaservicos.com.br/)** | SaaS platform that automates management between service providers and clients — built with Laravel & Vue 3, supporting payments, scheduling, and multi-tenant architecture. |
 | 🧬 **Intelligent Diagnosis System** | AI-based medical support system using Python and OpenCV for image processing and computer vision in health diagnostics. |
 | ⚙️ **API Integration Dashboard** | Real-time monitoring panel for REST APIs and webhooks, enabling data flow tracking and event observability. |
 
