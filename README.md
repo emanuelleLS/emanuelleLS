@@ -16,17 +16,17 @@
 
 <div align="center">
 
-### 👩‍💻 About Me
+### 👩‍💼 About Me  
 
-I am a **Software Engineer** with experience in **full-stack development**, **system architecture**, and **product-oriented engineering**.  
-I transform complex problems into **elegant, scalable, and high-impact solutions**, with strong focus on **performance, usability, and real-world value**.
+I’m a **Software Engineer** specialized in **product-driven development** — where technology meets business strategy.  
+My work is guided by **results, logic, and precision**, combining an assertive leadership style (DISC: **Dominance 60%**, **Conformity 30%**) with analytical thinking and a strong sense of purpose.  
 
-I work across **backend (PHP/Laravel, Node.js, Java/Spring Boot)** and **frontend (Vue.js, React, TypeScript)** ecosystems, building robust applications, API integrations, SaaS platforms, and AI-powered systems.
+I thrive in environments that demand **decision-making, autonomy, and delivery under pressure**, ensuring every line of code contributes to measurable business outcomes.  
+Driven by challenges, I value **efficiency, structure, and clarity**, aligning technical solutions with tangible impact.  
 
-🌟 **Purpose-driven engineering with measurable outcomes**  
-🧠 **Applied AI and intelligent automation**  
-☁️ **Experience with distributed, scalable cloud architectures**  
-🔄 **Agile mindset focused on delivery and continuous improvement**  
+💼 **Core strengths:** leadership, assertiveness, critical thinking, resilience, and focus on results.  
+📊 **Motivations:** transforming ideas into scalable, data-driven solutions that generate value and performance.  
+🎯 **Work style:** direct, organized, strategic — always guided by goals, metrics, and quality.  
 
 </div>
 
